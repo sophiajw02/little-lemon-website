@@ -1,5 +1,16 @@
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.unavailableContainer {
+    display: column;
+}
+
+.pageTitle {
+    background-color: #495E57;
+    color: white;
+    text-align: center;
+    padding: 1dvb;
+}
+
+.pageText {
+    text-align: center;
+    padding: 3rem;
+    height: 40vh;
 }
