@@ -1,0 +1,33 @@
+footer {
+    background-color: #495E57;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    margin: 2rem 0;
+    width: 75%;
+}
+
+.footerContainer nav {
+    padding: 0 2rem;
+}
+
+.footerContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerContainer li {
+    padding: 4px 0;
+}
+
+.footerContainer a {
+    text-decoration: none;
+    color: white;
+}
