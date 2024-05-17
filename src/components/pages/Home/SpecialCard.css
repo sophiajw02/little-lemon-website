@@ -47,8 +47,9 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    line-height: 1.5rem;
     color: #696969;
-    height: 7rem;
+    min-height: 7rem;
 }
 
 .special-card a{

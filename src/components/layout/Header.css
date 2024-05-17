@@ -3,14 +3,14 @@ header {
   justify-content: center;
   min-height: 64px;
   padding: 1rem;
-  width: 75%;
 }
 
 .topNav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 75%;
 }
 
 .navContent {
@@ -35,7 +35,7 @@ header {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 16px;
   padding: 38px 1rem;
 }

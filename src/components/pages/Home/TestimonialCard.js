@@ -1,14 +1,16 @@
+import "./TestimonialCard.css"
+
 function TestimonialsCard(props) {
     return (
         <div class="testimonial-card">
-            <div class="testimonial-card-author">
+            <div class="testimonial-author">
                 <img src={props.src}
                 alt={props.name}
                 />
                 <p>{props.name}</p>
-                <p>{props.rating}</p>
             </div>
-            <p>{props.review}</p>
+            <p class="testimonial-rating">{props.rating} out of 5</p>
+            <p class="testimonial-review">{props.review}</p>
         </div>
     )
 }

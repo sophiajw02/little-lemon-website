@@ -1,4 +1,5 @@
 import footerImage from './images/Footer.jpg';
+import logo from './images/logo-default.png';
 import './Footer.css';
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
             <div className="footerContainer">
                 <img
                     className="footerImage"
-                    src={footerImage}
+                    src={logo}
                     alt="Little Lemon"
                     height={200}
                 />
@@ -42,10 +43,10 @@ function Footer() {
                             Address
                         </li>
                         <li>
-                            Phone Number
+                            (123) 456-7890
                         </li>
                         <li>
-                            Email
+                            littlelemon@gmail.com
                         </li>
                     </ul>
                 </nav>
@@ -53,13 +54,13 @@ function Footer() {
                     <h4>Social Media</h4>
                     <ul>
                         <li>
-                            Social 1
+                            Facebook
                         </li>
                         <li>
-                            Social 2
+                            Instagram
                         </li>
                         <li>
-                            Social 3
+                            Twitter
                         </li>
                     </ul>
                 </nav>

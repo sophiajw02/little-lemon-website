@@ -17,8 +17,8 @@
 }
 
 .hero-content p {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 .hero-content button {
@@ -51,7 +51,7 @@
 
 .weekly-special-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
     justify-content: space-between;
     width: 75%;
     margin-bottom: 3rem;
@@ -66,13 +66,23 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 75%;
     gap: 3rem;
-
 }
 
 .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #495E57;
     color: white;
     padding: 6rem 0;
+}
+
+.testimonial-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 75%;
+    gap: 2rem;
 }
 
 .story-container {
