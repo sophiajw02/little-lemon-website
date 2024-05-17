@@ -1,15 +1,15 @@
-.unavailableContainer {
+.unavailable-container {
     display: column;
 }
 
-.pageTitle {
+.unavailable-title {
     background-color: #495E57;
     color: white;
     text-align: center;
     padding: 1dvb;
 }
 
-.pageText {
+.unavailable-text {
     text-align: center;
     padding: 3rem;
     height: 40vh;

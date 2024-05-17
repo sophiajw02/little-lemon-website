@@ -1,9 +1,16 @@
 header {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 64px;
-  padding: 1rem 2rem;
+  padding: 1rem;
+  width: 75%;
+}
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .navContent {
@@ -11,6 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+
 }
 
 .navContent > ul {
@@ -24,6 +32,10 @@ header {
 .navContent li a {
   text-decoration: none;
   color: black;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   padding: 38px 1rem;
 }

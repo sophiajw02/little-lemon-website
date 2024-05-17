@@ -2,6 +2,7 @@ import footerImage from './images/Footer.jpg';
 import './Footer.css';
 
 function Footer() {
+
     return (
         <footer>
             <div className="footerContainer">

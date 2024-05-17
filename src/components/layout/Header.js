@@ -4,8 +4,8 @@ import './Header.css';
 function Nav() {
     return (
         <header>
-            <Logo />
             <nav className="topNav">
+                <Logo />
                 <div className="navContent">
                     <ul>
                         <li>

@@ -1,7 +1,12 @@
+import TestimonialsCard from "./TestimonialCard";
+
 function Testimonials() {
     return (
-        <div>
+        <div class="testimonials-container">
             <h1>Testimonials</h1>
+            <TestimonialsCard name="John Smith"
+                rating="4/5"
+                review="temp" />
         </div>
     )
 };

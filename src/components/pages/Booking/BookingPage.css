@@ -1,0 +1,13 @@
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.booking-form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+}

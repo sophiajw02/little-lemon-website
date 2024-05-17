@@ -1,0 +1,120 @@
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #495E57;
+    color: white;
+    padding: 3rem 10rem;
+}
+
+.hero-content {
+    text-align: left;
+    margin-right: 4rem;
+}
+
+.hero-content h1 {
+    color: #F4CE14;
+    text-align: left;
+}
+
+.hero-content p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content button {
+    background-color: #F4CE14;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+}
+
+.hero-content button a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image {
+    grid-column: 2;
+    width: 100%;
+    height: 28rem;
+    margin-bottom: -9rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.weekly-special-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0 6rem 0;
+}
+
+.weekly-special-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 3rem;
+}
+
+.weekly-special-content h1 {
+    text-align: left;
+}
+
+.weekly-special-dishes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    gap: 3rem;
+
+}
+
+.testimonials-container {
+    background-color: #495E57;
+    color: white;
+    padding: 6rem 0;
+}
+
+.story-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 10rem;
+    position: relative;
+    height: 35rem;
+}
+
+
+.story-content {
+    margin-right: 4rem;
+}
+
+.story-content h1 {
+    color: #F4CE14;
+    text-align: left;
+}
+
+.story-images {
+    position: relative;
+}
+
+.story-image-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 28rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.story-image-2 {
+    position: absolute;
+    top: 14rem;
+    left: 0;
+    width: 60%;
+    height: 21rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    z-index: 2;
+}

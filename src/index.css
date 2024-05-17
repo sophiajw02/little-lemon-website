@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  margin: 0;
+  line-height: 0.7;
+}
+
+h2 {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.btn {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #F4CE14;
+  text-decoration: none;
+  color: black;
+  border-radius: 16px;
+  padding: 1rem 2rem;
+  text-align: center;
+}
