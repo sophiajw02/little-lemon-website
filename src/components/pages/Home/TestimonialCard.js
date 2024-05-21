@@ -9,7 +9,7 @@ function TestimonialsCard(props) {
                 />
                 <p>{props.name}</p>
             </div>
-            <p class="testimonial-rating">{props.rating} out of 5</p>
+            <p class="testimonial-rating"><span>{props.rating}</span> out of 5</p>
             <p class="testimonial-review">{props.review}</p>
         </div>
     )

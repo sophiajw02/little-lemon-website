@@ -40,7 +40,8 @@ function Footer() {
                     <h4>Contact</h4>
                     <ul>
                         <li>
-                            Address
+                            123 North Lemon Street <br />
+                            Lemon City, LC 12345
                         </li>
                         <li>
                             (123) 456-7890
@@ -54,13 +55,13 @@ function Footer() {
                     <h4>Social Media</h4>
                     <ul>
                         <li>
-                            Facebook
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
                         </li>
                         <li>
-                            Instagram
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
                         </li>
                         <li>
-                            Twitter
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
                         </li>
                     </ul>
                 </nav>

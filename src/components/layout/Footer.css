@@ -10,8 +10,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: center;
+    align-items: stretch;
     margin: 2rem 0;
     width: 75%;
+}
+
+.footerImage {
+    padding: 1rem 2rem;
 }
 
 .footerContainer nav {
@@ -24,6 +29,11 @@ footer {
 }
 
 .footerContainer li {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
     padding: 4px 0;
 }
 

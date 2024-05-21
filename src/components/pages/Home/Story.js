@@ -3,7 +3,8 @@ import StoryImageB from "./assets/story-image-back.jpg";
 
 function Story() {
     return (
-        <section class="story-container">
+        <section class="story">
+            <div class="story-container">
             <div class="story-content">
                 <h1>Our Story</h1>
                 <h2>Chicago</h2>
@@ -18,6 +19,7 @@ function Story() {
                 class="story-image-2"
                 alt="Restaurant interior"
                 />
+            </div>
             </div>
         </section>
     )

@@ -52,11 +52,15 @@
     min-height: 7rem;
 }
 
-.special-card a{
+.special-card a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 16px;
+}
+
+.special-card a:hover {
+    text-decoration: underline;
 }

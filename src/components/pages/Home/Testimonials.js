@@ -1,5 +1,5 @@
 import TestimonialsCard from "./TestimonialCard";
-import Bruschetta from "./assets/bruschetta.svg"
+import Bruschetta from "./assets/profile.png"
 
 function Testimonials() {
     return (
@@ -11,23 +11,22 @@ function Testimonials() {
                                 rating="4"
                                 review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 />
-                <TestimonialsCard name="John Smith"
+                <TestimonialsCard name="Alice Perez"
                                 src={Bruschetta}
-                                rating="4"
+                                rating="5"
                                 review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 />
-                <TestimonialsCard name="John Smith"
+                <TestimonialsCard name="Alexander Johnson"
                                 src={Bruschetta}
-                                rating="4"
+                                rating="5"
                                 review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 />
-                <TestimonialsCard name="John Smith"
+                <TestimonialsCard name="Jane Doe"
                                 src={Bruschetta}
                                 rating="4"
                                 review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 />
             </div>
-            
         </div>
     )
 };

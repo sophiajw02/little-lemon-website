@@ -38,7 +38,7 @@ h4 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -50,6 +50,43 @@ p {
   font-weight: normal;
   font-size: 20px;
   line-height: 2.5rem;
+}
+
+label {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1rem;
+}
+
+input {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #495E57;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-color: rgb(187, 187, 187);
+}
+
+select {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #495E57;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-color: rgb(187, 187, 187);
 }
 
 a {
@@ -72,4 +109,9 @@ a {
   border-radius: 16px;
   padding: 1rem 2rem;
   text-align: center;
+}
+
+.btn:hover {
+  background-color: #EE9972;
+  color: white;
 }

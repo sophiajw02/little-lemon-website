@@ -1,8 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #495E57;
+}
+
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #495E57;
     color: white;
+    width: 75%;
     padding: 3rem 10rem;
 }
 
@@ -19,17 +25,6 @@
 .hero-content p {
     padding-top: 1rem;
     padding-bottom: 4rem;
-}
-
-.hero-content button {
-    background-color: #F4CE14;
-    border-radius: 8px;
-    padding: 1rem 2rem;
-}
-
-.hero-content button a {
-    text-decoration: none;
-    color: black;
 }
 
 .hero-image {
@@ -85,14 +80,21 @@
     gap: 2rem;
 }
 
+.story {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
 .story-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     padding: 3rem 10rem;
     position: relative;
-    height: 35rem;
+    min-height: 35rem;
+    width: 75%;
 }
-
 
 .story-content {
     margin-right: 4rem;

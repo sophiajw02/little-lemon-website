@@ -2,7 +2,8 @@ import HeroImage from "./assets/hero-image.jpg"
 
 function Hero() {
     return (
-        <section class="hero-container">
+        <section class="hero">
+            <div class="hero-container">
             <div class="hero-content">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
@@ -16,6 +17,7 @@ function Hero() {
                 class="hero-image"
                 alt="Restaurant interior"
             />
+            </div>
         </section>
     )
 };

@@ -14,7 +14,7 @@
     color: black;
 }
 
-.testimonial-card > p{
+.testimonial-card p{
     display: flex;
     flex-direction: column;
     font-family: "Karla", sans-serif;
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    width: 100%;
     margin-bottom: 1rem;
 }
 
@@ -36,12 +36,14 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 1rem;
+    margin: 0 1rem;
+    color: #495E57;
+    filter: brightness(0.8);
 }
 
 .testimonial-author > p {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0.5rem 0 1rem 0;
     color: #495E57;
 }
@@ -49,8 +51,14 @@
 .testimonial-rating {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
+    line-height: 20px;
+}
+
+.testimonial-rating > span {
+    color: #EE9972;
+    font-size: 20px;
 }
 
 .testimonial-review {
