@@ -1,22 +1,26 @@
 import { useState } from 'react';
 
-function BookingForm() {
-    const [date, setDate] = useState(new Date().getFullYear());
-    const [time, setTime] = useState('17:00');
-    const [guests, setGuests] = useState(1);
-    const [occasion, setOccasion] = useState('Birthday');
+const BookingForm = ({ availableTimes, dispatchOnDateChange, submit }) =>  {
+    const defDate = new Date().toISOString().split('T')[0];
+    const defTime = availableTimes[0];
+    const minGuests = 1;
+    const defOccasion = 'Birthday';
 
-    const invalidDateErrorMessage = "Please choose a valid date";
-    const invalidTimeErrorMessage = "Please choose a valid time";
-    const invalidGuestsErrorMessage = "Please enter a valid number of guests between 1 and 10";
-    const invalidOccasionErrorMessage = "Please choose a valid occasion";
+    const [date, setDate] = useState(defDate);
+    const [time, setTime] = useState(defTime);
+    const [guests, setGuests] = useState(minGuests);
+    const [occasion, setOccasion] = useState(defOccasion);
+
+    const handleDate = (e) => {
+        setDate(e.target.value);
+        dispatchOnDateChange(e.target.value);
+    };
 
     const handleSubmit = (e) => {
-        console.log('Form submitted');
         e.preventDefault();
-        const formData = new FormData(e.target);
-        const data = Object.fromEntries(formData);
-        console.log(data);
+        submit({ date, time, guests, occasion });
+        console.log('Form submitted');
+        console.log({ date, time, guests, occasion });
     };
 
     return (
@@ -24,20 +28,27 @@ function BookingForm() {
             <form class="booking-form"
                 onSubmit={handleSubmit}>
                 <label for="res-date">Date</label>
-                <input type="date" id="res-date"/>
+                <input type="date" id="res-date"
+                    value={date}
+                    onChange={handleDate}
+                />
                 <label for="res-time">Time</label>
-                <select id="res-time ">
-                   <option>17:00</option>
-                   <option>18:00</option>
-                   <option>19:00</option>
-                   <option>20:00</option>
-                   <option>21:00</option>
-                   <option>22:00</option>
+                <select id="res-time"
+                    value={time}
+                    onChange={(e) => setTime(e.target.value)}>
+                   {availableTimes.map(times =>
+                        <option data-testid="booking-time-option" key={times}>
+                          {times}
+                        </option>
+                    )}
                 </select>
                 <label for="guests">Number of Guests</label>
-                <input type="number" placeholder="1" min="1" max="10" id="guests"/>
+                <input type="number" placeholder={guests} min="1" max="10" id="guests"
+                    onChange={e => setGuests(e.target.value)}/>
                 <label for="occasion">Occasion</label>
-                <select id="occasion">
+                <select id="occasion"
+                    value={occasion}
+                    onChange={(e) => setOccasion(e.target.value)}>
                    <option>Birthday</option>
                    <option>Anniversary</option>
                 </select>

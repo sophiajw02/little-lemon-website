@@ -1,4 +1,3 @@
-import footerImage from './images/Footer.jpg';
 import logo from './images/logo-default.png';
 import './Footer.css';
 
@@ -47,7 +46,7 @@ function Footer() {
                             (123) 456-7890
                         </li>
                         <li>
-                            littlelemon@gmail.com
+                            contact@littlelemon.com
                         </li>
                     </ul>
                 </nav>
